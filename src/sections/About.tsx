@@ -77,7 +77,7 @@ export default function AboutPage() {
                   assistance to members in need.
                </p>
 
-               {/* Read More — CHANGED */}
+               {/* Read More */}
                <span className="absolute bottom-0 right-0 cursor-pointer bg-white pl-1 text-sm font-semibold text-amber-dark transition-colors hover:text-grey-dark md:text-lg">
                   Read more
                </span>
@@ -86,7 +86,7 @@ export default function AboutPage() {
          
          </div>
 
-         {/* ===================== ABOUT GRID ===================== */}
+         {/*  ABOUT GRID  */}
 
          <div className="mt-4 md:mt-0 grid grid-cols-2 md:grid-cols-4">
 

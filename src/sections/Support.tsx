@@ -35,7 +35,7 @@ export default function Support() {
                {supports.map((item) => (
                   <article key={item.description} className="w-full py-2">
 
-                     {/* Support wrapper — CHANGED */}
+                     {/* Support wrapper */}
                      <div className="grid w-full grid-cols-[60px_minmax(0,1fr)] gap-3 md:grid-cols-[60px_minmax(0,1fr)]">
                         {/* TYPE */}
                         <p className="flex w-full items-center justify-center bg-grey-dark px-2 py-3 font-heading text-xs font-normal text-white capitalize">

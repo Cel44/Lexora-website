@@ -41,12 +41,12 @@ export default function AnniversaryPage() {
                   "
                />
 
-               {/* 60 — CHANGED */}
+               {/* 60 */}
                <span className="relative z-10 font-heading leading-none text-[clamp(5rem,25vw,15rem)] md:text-[clamp(6rem,10vw,20rem)]">
                   60
                </span>
 
-               {/* TH — CHANGED */}
+               {/* TH */}
                <span className="absolute right-0 top-0 z-10
                   -translate-y-1/3 translate-x-full font-heading
                   text-[clamp(1.25rem,3vw,10rem)]">
@@ -54,7 +54,7 @@ export default function AnniversaryPage() {
                </span>
             </div>
 
-            {/* ANNIVERSARY — CHANGED */}
+            {/* ANNIVERSARY */}
             <p className="z-10 font-heading text-[clamp(1.25rem,8vw,10rem)] md:text-[clamp(1.25rem,4vw,5rem)]">
             ANNIVERSARY
             </p>
@@ -64,12 +64,12 @@ export default function AnniversaryPage() {
       {/* PLAY VIDEO button */}
       <button className="mt-8 flex flex-col items-center gap-2 text-white transition-opacity hover:opacity-70">
 
-         {/* Play symbol — CHANGED */}
+         {/* Play symbol */}
          <div className="flex h-[clamp(2.5rem,5vw,3.5rem)] w-[clamp(2.5rem,5vw,3.5rem)] items-center justify-center rounded-full bg-amber-dark text-white">
             <RiArrowRightSFill className="text-[clamp(2rem,4vw,2.5rem)]" />
          </div>
 
-         {/* PLAY VIDEO label — CHANGED */}
+         {/* PLAY VIDEO label */}
          <span className="font-body text-[clamp(0.625rem,1.2vw,0.875rem)] tracking-widest">
             PLAY VIDEO
          </span>

@@ -70,7 +70,7 @@ export default function Hero({ onOpenNav }: HeroProps) {
                      src={symbol}   
                      alt="Lexora Symbol"
                      className="h-auto w-36"
-                  />
+                  /> 
                </div>
 
                {/* MAIN CONTENT */}
@@ -90,7 +90,7 @@ export default function Hero({ onOpenNav }: HeroProps) {
                         fill="none"
                         aria-hidden="true"
                      >
-                        {/* TOP PATH — CHANGED */}
+                        {/* TOP PATH */}
                         <path
                         d="M -10 40 L 285 235"
                         stroke="#81213C"
@@ -100,7 +100,7 @@ export default function Hero({ onOpenNav }: HeroProps) {
                         className="md:[stroke-80px]"
                         />
 
-                        {/* BOTTOM PATH — CHANGED */}
+                        {/* BOTTOM PATH */}
                         <path
                         d="M 255 210 L 35 470"
                         stroke="#AE2249"

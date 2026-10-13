@@ -14,7 +14,7 @@ export default function Career() {
          {/* Overall wrapper -- Desktop layout */}
          <div className="hidden md:block relative isolate overflow-visible">
 
-            {/* CHANGED: Background has its own fixed height */}
+            {/* Background has its own fixed height */}
             <div
                style={{
                   backgroundImage: `url(${office})`,
@@ -26,7 +26,7 @@ export default function Career() {
                {/* Overlay over office image */}
                <div className="absolute inset-0 bg-white/40" />
 
-               {/* RED DIAGONAL SHAPE: matches background height */}
+               {/* RED DIAGONAL SHAPE */}
                <div
                   className="absolute inset-y-0 right-0 hidden w-[48%] bg-[#AE2249]/90 md:block"
                   style={{
@@ -165,17 +165,17 @@ export default function Career() {
                   className="block h-full w-auto max-w-none object-contain object-bottom grayscale"
                />
 
-               {/* Gavel — positioned relative to hand */}
+               {/* Gavel */}
                <MdGavel
                   className="absolute bottom-[50%] left-[-20%] h-10 w-10 rounded-full border-4 border-amber-light bg-white p-2 text-maroon-light"
                />
 
-               {/* Temple — positioned relative to hand */}
+               {/* Temple */}
                <GiGreekTemple
                   className="absolute bottom-[75%] right-[15%] h-10 w-10 rounded-full border-4 border-amber-light bg-white p-2 text-maroon-light"
                />
 
-               {/* Organisation — positioned relative to hand */}
+               {/* Organisation */}
                <CgOrganisation
                   className="absolute bottom-[85%] left-[-5%] h-10 w-10 rounded-full border-4 border-amber-light bg-white p-2 text-maroon-light"
                />
