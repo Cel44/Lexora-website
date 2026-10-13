@@ -1,21 +1,28 @@
 import symbol from "../assets/symbol.png";
 
 export default function Footer() {
-   return (
-      <section id="footer" className="py-2 bg-grey-dark">
-         <div className="flex flex-col justify-center items-center">
-            <img src={symbol} alt="" className="w-36 h-auto"/>
+  return (
+    <section id="footer" className="bg-grey-dark pt-10">
+      <div className="flex flex-col items-center justify-center">
+        <img src={symbol} alt="" className="h-auto w-36" />
 
-            <p className="pt-4 text-xs text-white/50">
-               FAQS | ADVERTISING RATES | TERMS OF USE | PRIVACY POLICY
-            </p>
+        <p className="pt-4 text-xs text-white/50 text-center px-4">
+          FAQS | ADVERTISING RATES | TERMS OF USE | PRIVACY POLICY
+        </p>
 
-            <hr className="mt-10 mb-6 md:mb-8 border-grey-light" />
+        {/* Line between FAQ links and copyright */}
+        <hr className="mt-10 w-full border-grey-light/40" />
 
-            <p className="text-white/30 text-xs">© Copyrigth 2025 The Lexora of Singapore. All rights reserved</p>
-            <p className="text-white/30 text-xs">Latest update 26 June 2025</p> 
+        <div className="flex w-full flex-col items-center gap-2 p-6 md:flex-row md:justify-between">
+          <p className="text-xs text-white/30">
+            © Copyright 2025 The Lexora of Singapore. All rights reserved
+          </p>
 
-         </div>
-      </section>
-   )
+          <p className="text-xs text-white/30">
+            Latest update 26 June 2025
+          </p>
+        </div>
+      </div>
+    </section>
+  );
 }
