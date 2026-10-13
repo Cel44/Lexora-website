@@ -7,6 +7,7 @@ import News from "./sections/News";
 import Footer from "./sections/Footer";
 import Support from "./sections/Support";
 import Plans from "./sections/Plans";
+import Career from "./sections/Career";
 
 export default function App() {
   const [isNavOpen, setIsNavOpen] = useState(false);
@@ -25,6 +26,7 @@ export default function App() {
         <Plans />
         <Support />
         <News />
+        <Career />
       </main>
 
       <Footer />
