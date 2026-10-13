@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Oswald:wght@200..700&family=Montserrat:wght@100..900&display=swap');
+
+@import "tailwindcss";
+
+@theme {
+  --font-heading: "Oswald", sans-serif;
+  --font-body: "Montserrat", sans-serif;
+
+  --color-maroon: #8B1A1A;
+  --color-amber-light: #DFD8CB;
+  --color-amber-dark: #927642;
+  --color-grey-light: #E5E8EB;
+  --color-grey-dark: #404040;
+
+  --color-maroon-light: #A7022D
+}
+
+body {
+   font-family: var(--font-body);
+}
+
+
+ 
+ 
