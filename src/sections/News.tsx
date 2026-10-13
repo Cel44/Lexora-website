@@ -4,7 +4,7 @@ import NewsCarousel from "../components/NewsCarousel";
 
 export default function News() {
    return (
-      <section id="news" className="-mt-55 md:-mt-90 relative min-h-screen bg-grey-light">
+      <section id="news" className="-mt-5 md:-mt-50 lg:-mt-50 relative min-h-screen bg-grey-light">
          
          <img
             src={tornEdge}

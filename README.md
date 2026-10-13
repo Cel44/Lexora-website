@@ -2,6 +2,8 @@
 
 A responsive mockup of the Lexora website built as part of a web development internship test case. The project includes multiple website sections, responsive layouts, and a news carousel populated with real articles from The Guardian Open Platform API.
 
+[LINK](https://lexora-website-pink.vercel.app/): [lexora-website-pink.vercel.app](lexora-website-pink.vercel.app)
+
 ## Features
 
 - Responsive website layout for desktop, tablet, and mobile screens.

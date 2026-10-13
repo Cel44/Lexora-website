@@ -9,7 +9,7 @@ import { CgOrganisation } from "react-icons/cg";
 
 export default function Career() {
    return (
-      <section id="career" className="w-full md:pt-5 lg:pt-25 bg-grey-light">
+      <section id="career" className="min-h-screen w-full pt-20 md:pt-5 lg:pt-25 bg-grey-light">
          {/* Overall banner */}
          <div className="relative isolate overflow-visible">
 

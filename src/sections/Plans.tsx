@@ -4,17 +4,17 @@ import tornEdge from "../assets/torn-edge.png";
 
 export default function Plans() {
    return(
-      <section id="plans" className="min-h-screen relative -mt-5 md:-mt-10 lg:-mt-13 m-6 md:m-12">
+      <section id="plans" className="min-h-screen relative m-6 md:-mt-10 lg:-mt-10 md:m-12">
 
       {/* TORN PAPER EDGE */}
          <img
          src={tornEdge}
          alt=""
          aria-hidden="true"
-         className="pointer-events-none absolute top-0 left-0 scale-300 md:scale-200 rotate-6 brightness-200 mb-5 md:mb-0"
+         className="pointer-events-none absolute top-6 left-0 scale-300 rotate-6 brightness-200 mb-15 md:mb-15 md:scale-200 md:-top-15 pb-40"
          />
 
-         <div>
+         <div className="mt-30">
             {/* Road and Celebrating wrapper */}
             <div className="">
                <h2 className="font-heading uppercase text-base font-medium text-maroon-light underline">
