@@ -152,11 +152,11 @@ export default function Career() {
          <div className="relative mt-4 flex w-full items-end justify-center">
             
             {/* Red overlay at the bottom */}
-            <div className="absolute bottom-0 left-0 h-40 w-full bg-[#AE2249]/90"/>
+            <div className="absolute bottom-0 left-0 h-45 w-full bg-[#AE2249]/90"/>
 
             {/* HAND and ICONS */}
             {/* HAND ANCHOR */}
-            <div className="relative z-10 h-67.5 w-fit">
+            <div className="relative z-10 h-80 w-fit">
 
                {/* Hand image */}
                <img
