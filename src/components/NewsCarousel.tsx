@@ -179,7 +179,7 @@ export default function NewsCarousel() {
             onMouseLeave={handleMouseUp}
             className="flex min-w-0 flex-1 snap-x snap-mandatory
                gap-5 overflow-x-auto scroll-smooth pb-4
-               cursor-grab active:cursor-grabbing"
+               cursor-grab active:cursor-grabbing [scrollbar-width:none] [-ms-overflow-style:none] [&::-webkit-scrollbar]:hidden"
          >
             {articles.map((article) => {
                const excerpt =
@@ -263,7 +263,7 @@ export default function NewsCarousel() {
             onClick={() => scrollCarousel("right")}
             aria-label="Scroll to next articles"
             className="shrink-0 border border-grey-dark p-2
-               transition hover:bg-grey-dark hover:text-white md:p-3"
+               transition hover:bg-grey-dark hover:text-white md:p-3 md:pb-0"
          >
             →
          </button>
