@@ -4,6 +4,8 @@ A responsive mockup of the Lexora website built as part of a web development int
 
 [LINK](https://lexora-website-pink.vercel.app/): [lexora-website-pink.vercel.app](lexora-website-pink.vercel.app)
 
+<!-- Based on: https://www.figma.com/design/6XKkcfeMx3iEAVxmGiJAS6/Web-Test-Case?node-id=20-211&t=uWRzsDnqvvmD53d6-0 -->
+
 ## Features
 
 - Responsive website layout for desktop, tablet, and mobile screens.
